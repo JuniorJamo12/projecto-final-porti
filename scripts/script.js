@@ -5,7 +5,7 @@ const body = document.body;
 const temasalvo = localStorage.getItem('tema');
 temaEscuro(temasalvo === 'escuro');
 
-// Função para alternar entre tema claro e escuro
+//  para alternar entre tema claro e escuro
 function temaEscuro(tipo) {
   if (tipo == true) {
     body.classList.add('escuro');
